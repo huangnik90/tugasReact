@@ -1,0 +1,20 @@
+.loginStyle{
+    padding-top: 120px;
+    background-color:#F8F9FA;
+    height: 520px;
+}
+.btn{
+    margin-top: 10px;
+}
+
+
+.anotherOne{
+    
+    justify-content: center;
+    background: url("https://images.unsplash.com/photo-1489743342057-3448cc7c3bb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=355&q=80");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+
