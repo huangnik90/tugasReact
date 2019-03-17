@@ -43,9 +43,8 @@ class Header extends React.Component {
         <div>
           <Navbar color="light" light expand="md">
             <NavbarBrand href="/">
-            <span style={{fontSize: "33px", color: "Dodgerblue"}}>
-            <i class="fab fa-fulcrum"> Ultimate Coretan {this.props.user} {this.props.role} </i>
-            </span>   
+            SNEAKPEAK
+            <i class="fas fa-shoe-prints"></i>
             
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
@@ -93,12 +92,10 @@ class Header extends React.Component {
     }else{
       return (
         <div>
-          <Navbar color="light" light expand="md">
+          <Navbar color="white" light expand="md">
             <NavbarBrand href="/">
-            <span style={{fontSize: "33px", color: "Dodgerblue"}}>
-            <i class="fab fa-fulcrum"> Ultimate Coretan {this.props.user} </i>
-            </span>   
-            
+                SNEAKPEAK
+            <i class="fas fa-shoe-prints"></i>
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>

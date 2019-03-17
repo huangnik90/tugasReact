@@ -18,6 +18,7 @@ import './support/fontawesome-free/css/fontawesome.min.css'
 import './support/fontawesome-free/css/all.min.css';
 import 'semantic-ui-css/semantic.min.css'
 
+
 const varStore = createStore(GlobalState,{},applyMiddleware(ReduxThunk))
 ReactDOM.render(
     <Provider store={varStore}>

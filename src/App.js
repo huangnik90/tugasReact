@@ -31,7 +31,7 @@ class App extends Component {
   render() {
     return (
      
-      <div className="container">
+      <div className="container-fluid" style={{background:"whitesmoke" } }>
       <Header/>
       <div>
       <Route path="/Login" component={Login}></Route>
